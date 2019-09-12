@@ -193,9 +193,7 @@ If there isn’t enough bandwidth for a meeting, participants see a message that
 
 For meetings that need the highest quality video experience, such as CEO board meetings and Teams live events, we recommend you set the bandwidth to 10 Mbps. Even when the maximum experience is set, the Teams media stack adapts to low bandwidth conditions when certain network conditions are detected, depending on the scenario. 
 
-### Enable live captions (coming soon)
 
-This is a per-user policy and applies during a meeting. If this setting is on, the user sees an option to display captions during a meeting.
 
 <a name="bkcontentsharing"> </a>
 
@@ -301,10 +299,6 @@ Let's look at the following example.
 
 Daniela can take notes in Amanda's meetings and Amanda can't take notes in any meetings.
 
-### Allow chat in meetings (coming soon)
-
-This is a per-organizer policy. This setting controls whether meeting chat is allowed in the user's meeting. 
-
 <a name="bkparticipantsandguests"> </a>
 
 ## Meeting policy settings - Participants & guests
@@ -401,6 +395,14 @@ Here's how this setting affects whether the meeting organizer can change the **A
 |True      | False         | Organizer can change the setting to True.        |
 |False     | True        |Organizer can change the setting to False.         |
 |False      |False          |Organizer can't override the lobby setting and can't allow dial-in users to bypass the lobby in the meeting.        |
+
+### Enable live captions
+
+This is a per-user policy and applies during a meeting. If this setting is on, the user sees an option to display captions during a meeting.
+
+### Allow chat in meetings 
+
+This is a per-organizer policy. This setting controls whether meeting chat is allowed in the user's meeting. 
 
 [Full article](meeting-policies-in-teams.md)
 
